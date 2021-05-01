@@ -186,7 +186,7 @@ class Client {
 		document.getElementById("mode_battleroyale").style.backgroundColor = "#1ad1e8";
 		document.getElementById("mainui-modes").style.backgroundColor = "#153dee";
 		document.getElementById("mainui-user").style.backgroundColor = "#153dee";
-        if (!localStorage.getItem('botAmount')) localStorage.setItem('botAmount', 200);
+        if (!localStorage.getItem('botAmount')) localStorage.setItem('botAmount', 100);
         if (!localStorage.getItem('botNick')) localStorage.setItem('botNick', 'KrunkerDarezYT');
         console.log('[GodBots] Ready!');
     }
